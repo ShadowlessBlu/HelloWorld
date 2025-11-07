@@ -6,10 +6,10 @@ otherwise
 print the down payment"""
 
 price = 1000000
-has_good_credit = True
+has_good_credit = False
 if has_good_credit:
     down_payment = price * 0.10
-    print("The Down payment of house is ", down_payment)
+    print(f"The Down payment of house is ${down_payment}")
 else:
     down_payment = price * 0.20
-    print("The Down payment of house is ", down_payment)
+    print(f"The Down payment of house is ${down_payment}")
